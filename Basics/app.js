@@ -41,6 +41,7 @@ console.log(b);
 */
 
 // Method 2-swap two variable without extra variable
+/*
 let a=10;
 let b =20;
 
@@ -49,6 +50,39 @@ b = a - b; // b = 10
 a = a - b // a = 20
 
 console.log(a,b)
+*/
 
-// Method 3-
+// Method 3- Destructuring
+let a=10;
+let b=20;
 
+[a,b] = [b,a] //dono side me agar array ho aur beech me equal ha toh hum swapping karvate ha
+
+console.log(a,b)
+
+// Q5 CHECK WHETHER A NUMBER IS EVEN OR ODD
+/*
+let num = Number(prompt("Enter a number:"));
+if (num % 2 === 0) {
+    console.log(`${num} is Even`);
+} else {
+    console.log(`${num} is Odd`);
+}
+*/
+
+// Q6 FIND MAXIMUM OF THREE NUMBERS
+/*
+let x = 15;
+let y = 30;
+let z = 20;
+
+if (x >= y && x >= z) {
+    console.log("Maximum is " + x);
+} else if (y >= x && y >= z) {
+    console.log("Maximum is " + y);
+} else {
+    console.log("Maximum is " + z);
+}
+
+
+*/
