@@ -61,17 +61,17 @@ let b=20;
 console.log(a,b)
 
 // Q5 CHECK WHETHER A NUMBER IS EVEN OR ODD
-/*
+
 let num = Number(prompt("Enter a number:"));
 if (num % 2 === 0) {
     console.log(`${num} is Even`);
 } else {
     console.log(`${num} is Odd`);
 }
-*/
+
 
 // Q6 FIND MAXIMUM OF THREE NUMBERS
-/*
+
 let x = 15;
 let y = 30;
 let z = 20;
@@ -85,4 +85,15 @@ if (x >= y && x >= z) {
 }
 
 
-*/
+// Q7 CHECK WHETHER A YEAR IS A LEAP YEAR OR NOT
+
+let year = 2024;
+if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+    console.log(`${year} is a Leap Year`);
+} else {
+    console.log(`${year} is NOT a Leap Year`);
+}
+
+
+
+
