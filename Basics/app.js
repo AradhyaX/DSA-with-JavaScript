@@ -95,5 +95,12 @@ if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
 }
 
 
+// Q8 FIND FACTORIAL OF A NUMBER
 
+let numFact = 5;
+let factorial = 1;
+for(let i = 1; i <= numFact; i++) {
+    factorial *= i;
+}
+console.log(`Factorial of ${numFact} is ${factorial}`);
 
