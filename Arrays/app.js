@@ -29,3 +29,13 @@ for (let i = 1; i < arrMax.length; i++) {
 }
 console.log("Max element is: " + max);
 */
+
+// Q4: REVERSE AN ARRAY
+/*
+let arrRev = [1, 2, 3, 4, 5];
+let reversed = [];
+for (let i = arrRev.length - 1; i >= 0; i--) {
+    reversed.push(arrRev[i]);
+}
+console.log("Reversed array is: " + reversed);
+*/
