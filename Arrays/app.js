@@ -39,3 +39,16 @@ for (let i = arrRev.length - 1; i >= 0; i--) {
 }
 console.log("Reversed array is: " + reversed);
 */
+
+// Q5: CHECK IF ARRAY IS SORTED
+/*
+let arrSort = [10, 20, 30, 40, 50];
+let isSorted = true;
+for (let i = 1; i < arrSort.length; i++) {
+    if (arrSort[i] < arrSort[i - 1]) {
+        isSorted = false;
+        break;
+    }
+}
+console.log("Is array sorted? " + isSorted);
+*/
