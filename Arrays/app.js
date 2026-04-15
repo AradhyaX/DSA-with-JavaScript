@@ -17,3 +17,15 @@ for (let i = 0; i < numbers.length; i++) {
 }
 console.log("Sum of elements is: " + sum);
 */
+
+// Q3: FIND MAXIMUM ELEMENT IN AN ARRAY
+/*
+let arrMax = [5, 10, 20, 2, 8];
+let max = arrMax[0];
+for (let i = 1; i < arrMax.length; i++) {
+    if (arrMax[i] > max) {
+        max = arrMax[i];
+    }
+}
+console.log("Max element is: " + max);
+*/
