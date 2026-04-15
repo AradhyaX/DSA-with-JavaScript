@@ -52,3 +52,15 @@ for (let i = 1; i < arrSort.length; i++) {
 }
 console.log("Is array sorted? " + isSorted);
 */
+
+// Q6: FIND MINIMUM ELEMENT IN AN ARRAY
+/*
+let arrMin = [15, 22, 8, 19, 31];
+let min = arrMin[0];
+for (let i = 1; i < arrMin.length; i++) {
+    if (arrMin[i] < min) {
+        min = arrMin[i];
+    }
+}
+console.log("Min element is: " + min);
+*/
