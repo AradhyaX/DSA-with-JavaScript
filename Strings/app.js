@@ -52,3 +52,14 @@ for (let i = 0; i < words.length; i++) {
 }
 console.log("Longest word is: " + longestWord);
 */
+
+// Q5: CAPITALIZE FIRST LETTER OF EACH WORD
+/*
+let strToCapitalize = "hello world from javascript";
+let wordsArr = strToCapitalize.split(" ");
+for (let i = 0; i < wordsArr.length; i++) {
+    wordsArr[i] = wordsArr[i][0].toUpperCase() + wordsArr[i].substring(1);
+}
+let capitalizedStr = wordsArr.join(" ");
+console.log("Capitalized string: " + capitalizedStr);
+*/
